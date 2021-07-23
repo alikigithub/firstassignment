@@ -31,7 +31,7 @@ jobs:
         with:
             node-version: '14'
       - name: create build
-        run: npm run build
+        run: npm  build
       - name: install surge
         run: npm install --global surge
       - name: deploy surge 
