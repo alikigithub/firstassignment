@@ -31,7 +31,7 @@ jobs:
         with:
             node-version: '14'
       - name: start-npm
-        run: npm  start    
+        run: npm run start    
       - name: create build
         run: npm  build
       - name: install surge
