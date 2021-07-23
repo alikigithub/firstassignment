@@ -30,6 +30,8 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
             node-version: '14'
+      - name: start-npm
+        run: npm  start    
       - name: create build
         run: npm  build
       - name: install surge
